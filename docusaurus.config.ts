@@ -145,7 +145,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Sunyuanhui. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().toDateString()} seeuswk@gmail.com`,
     },
     prism: {
       theme: prismThemes.github,

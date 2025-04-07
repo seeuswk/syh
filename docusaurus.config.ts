@@ -32,6 +32,10 @@ const config: Config = {
     locales: ["zh-Hans"],
   },
 
+  plugins: [[ require.resolve('docusaurus-lunr-search'), {
+    languages: ['zh', 'en'] // language codes
+  }]],
+
   presets: [
     [
       "classic",
@@ -89,14 +93,6 @@ const config: Config = {
           position: "right",
         },
         */
-        {
-          position: "right",
-          html: `
-          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86
-            src="//music.163.com/outchain/player?type=2&id=26494698&auto=1&height=66">
-          </iframe>
-        `,
-        },
       ],
     },
     footer: {

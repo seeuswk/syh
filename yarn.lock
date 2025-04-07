@@ -5461,6 +5461,11 @@ jest-worker@^29.4.3:
     merge-stream "^2.0.0"
     supports-color "^8.0.0"
 
+jieba@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/jieba/-/jieba-1.0.0.tgz#24d5821c0a8553468198282fea41dfd7c6747e22"
+  integrity sha512-tA7VQs2xr9RBFmAxKe6szAR/yE3ga8AsoNs5QPIU7z3jlRcqThGbqavYAbWk6wf8s4LnY9zSKFFQfZx+gwus6A==
+
 jiti@^1.20.0:
   version "1.21.7"
   resolved "https://registry.yarnpkg.com/jiti/-/jiti-1.21.7.tgz#9dd81043424a3d28458b193d965f0d18a2300ba9"

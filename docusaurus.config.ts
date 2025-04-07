@@ -99,11 +99,19 @@ const config: Config = {
       style: "dark",
       links: [
         {
-          title: "Notes",
+          title: "Local",
           items: [
             {
               label: "Notes",
               to: "/docs/intro",
+            },
+            {
+              label: "Blog",
+              to: "/blog",
+            },
+            {
+              label: "GitHub",
+              href: "https://github.com/seeuswk",
             },
           ],
         },
@@ -127,20 +135,6 @@ const config: Config = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/seeuswk",
-            },
-            // {
-            //   html: `
-            //   <embed src="//music.163.com/style/swf/widget.swf?sid=26494698&type=2&auto=1&width=320&height=66" width=340 height=86 allowNetworking="all">
-            //   </embed>
-            // `,
-            // },
             {
               html: `
               <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86

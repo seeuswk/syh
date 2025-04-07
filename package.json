@@ -18,6 +18,7 @@
     "@docusaurus/core": "3.7.0",
     "@docusaurus/preset-classic": "3.7.0",
     "@mdx-js/react": "^3.0.0",
+    "@node-rs/jieba": "^2.0.1",
     "clsx": "^2.0.0",
     "docusaurus-lunr-search": "^3.6.0",
     "jieba": "^1.0.0",
